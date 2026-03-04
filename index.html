@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daak Coffee House | Specialty Coffee in Jubilee Hills</title>
+    <meta name="description"
+        content="Daak Coffee House is a cozy neighbourhood café in Jubilee Hills, Hyderabad serving specialty coffee, comfort food, and viral desserts loved by the city's café community.">
+    <meta name="keywords"
+        content="specialty coffee hyderabad, best cafe in jubilee hills, coffee house hyderabad, dessert cafe hyderabad, instagram cafe hyderabad">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Daak Coffee House</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#visit" class="btn btn-outline nav-btn">Visit Us</a>
+            </div>
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+        <!-- Scroll Progress Indicator -->
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section-spacing">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-card">
+                    <h1 class="hero-title fw-bold">Daak Coffee House</h1>
+                    <p class="hero-subtitle fw-light">Slow mornings, great coffee, and good conversations.</p>
+                    <p class="hero-location">Jubilee Hills, Hyderabad</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">View Menu</a>
+                        <a href="#visit" class="btn btn-outline">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Scroll Indicator -->
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </section>
+
+        <!-- Quick Info Bar -->
+        <section id="quick-info" class="quick-info section-spacing-sm">
+            <div class="container">
+                <div class="info-bar-grid">
+                    <!-- Location -->
+                    <div class="info-card reveal reveal-slide-up">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="info-icon">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div class="info-text">
+                            <h3>Location</h3>
+                            <p>Jubilee Hills, Hyderabad</p>
+                        </div>
+                    </div>
+                    <!-- Opening Hours -->
+                    <div class="info-card reveal reveal-slide-up" style="transition-delay: 0.1s;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="info-icon">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <div class="info-text">
+                            <h3>Opening Hours</h3>
+                            <p>8:00 AM – 1:00 AM (Daily)</p>
+                        </div>
+                    </div>
+                    <!-- Google Rating -->
+                    <div class="info-card reveal reveal-slide-up" style="transition-delay: 0.2s;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="info-icon">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                        <div class="info-text">
+                            <h3>Google Rating</h3>
+                            <p>4.5 / 5 <span class="stars">★★★★★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4 reveal reveal-slide-up" style="transition-delay: 0.3s;">
+                    <a href="https://www.google.com/maps/place/Daak+Coffee+House/" target="_blank" rel="noopener"
+                        class="btn btn-primary">Get Directions</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing">
+            <div class="container">
+                <div class="about-grid split-layout">
+                    <div class="about-image split-image">
+                        <img src="media/cafe-counter.jpg" alt="Daak Coffee House Counter" loading="lazy">
+                    </div>
+                    <div class="about-content split-content">
+                        <h2>A Cozy Neighbourhood Café</h2>
+                        <p>Daak Coffee House is a cozy neighbourhood café in Jubilee Hills, Hyderabad serving specialty
+                            coffee, comfort food, and viral desserts loved by the city's café community.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Drink Section -->
+        <section id="signature" class="signature section-spacing bg-secondary">
+            <div class="container signature-container">
+                <div class="split-layout reverse">
+                    <div class="split-image signature-image-wrapper">
+                        <img src="media/tote-bag-coffee.jpg" alt="Tote Bag Coffee" loading="lazy" class="floating-img">
+                    </div>
+                    <div class="split-content signature-content">
+                        <span class="badge signature-label">Signature Drink</span>
+                        <h2 class="signature-title">Tote Bag Coffee</h2>
+                        <p class="signature-desc">A unique specialty coffee experience loved by visitors at Daak Coffee
+                            House.</p>
+                        <a href="#menu" class="btn btn-primary signature-btn mt-4">View Menu</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coffee Highlight Section -->
+        <section id="coffee" class="coffee section-spacing">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-image">
+                        <img src="media/coffee-spanish-latte.jpg" alt="Spanish Latte" loading="lazy">
+                    </div>
+                    <div class="split-content">
+                        <span class="badge">Bestseller</span>
+                        <h2>Spanish Latte</h2>
+                        <p>A beautifully balanced blend of our house espresso, textured milk, and subtle sweetness.
+                            Served perfectly chilled or warm, it's the ideal companion for slow mornings or afternoon
+                            pick-me-ups.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Preview Section -->
+        <section id="menu" class="menu section-spacing bg-secondary">
+            <div class="container">
+                <div class="text-center menu-header">
+                    <h2>Our Menu</h2>
+                    <p>Crafted to complement your coffee experience.</p>
+                </div>
+                <div class="menu-grid text-center">
+                    <div class="menu-card">
+                        <h3>Coffee</h3>
+                        <p>Single Origin & House Blends</p>
+                    </div>
+                    <div class="menu-card">
+                        <h3>Breakfast</h3>
+                        <p>Shakshuka, Avocado Toast & More</p>
+                    </div>
+                    <div class="menu-card">
+                        <h3>Sandwiches</h3>
+                        <p>Freshly Grilled Sourdough</p>
+                    </div>
+                    <div class="menu-card">
+                        <h3>Desserts</h3>
+                        <p>San Sebastian, Matilda Cake</p>
+                    </div>
+                </div>
+                <div class="menu-image-preview mt-4">
+                    <img src="media/food-table.jpg" alt="Menu Spread" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Dish Section -->
+        <section id="featured" class="featured section-spacing">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-image">
+                        <img src="media/pizza-pull.jpg" alt="Signature Pizza Cheese Pull" loading="lazy">
+                    </div>
+                    <div class="split-content">
+                        <span class="badge">Savoury</span>
+                        <h2>Comfort in Every Bite</h2>
+                        <p>Beyond specialty coffee, our kitchen serves up comfort food meant to be shared. Our signature
+                            artisanal pizzas are made fresh to order, featuring the perfect crust and the ultimate
+                            cheese pull.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dessert Section -->
+        <section id="desserts" class="desserts section-spacing bg-secondary">
+            <div class="container">
+                <div class="split-layout reverse">
+                    <div class="split-image">
+                        <img src="media/dessert-platter.jpg" alt="Decadent Dessert Platter" loading="lazy">
+                    </div>
+                    <div class="split-content">
+                        <span class="badge">Sweet Tooths</span>
+                        <h2>Artisanal Desserts</h2>
+                        <p>Pair your coffee with our viral desserts. From the creamy San Sebastian Cheesecake to our
+                            rich Matilda Cake, every dessert is baked fresh daily to perfectly complement our specialty
+                            roasts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section-spacing">
+            <div class="container">
+                <div class="text-center menu-header">
+                    <h2>Moments at Daak Coffee House</h2>
+                    <p>Follow our coffee moments on Instagram.</p>
+                </div>
+                <div class="gallery-grid">
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/cafe-seating.jpg" alt="Cozy Cafe Seating" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/img1.jpg" alt="Aesthetic Cafe Interior" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/tote-bag-coffee.jpg" alt="Tote Bag Coffee" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/coffee-spanish-latte.jpg" alt="Spanish Latte" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/pizza-pull.jpg" alt="Comfort Food" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/daakcoffee" target="_blank" class="gallery-item">
+                        <img src="media/dessert-platter.jpg" alt="Artisanal Desserts" loading="lazy">
+                        <div class="gallery-overlay">
+                            <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center mt-5 reveal reveal-slide-up">
+                    <a href="https://instagram.com/daakcoffee" target="_blank" rel="noopener"
+                        class="btn btn-primary">Follow us on Instagram</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience section-spacing bg-secondary">
+            <div class="container">
+                <div class="text-center menu-header">
+                    <h2>Vibe Check</h2>
+                </div>
+                <div class="video-grid">
+                    <div class="video-wrapper">
+                        <video autoplay muted loop playsinline poster="media/hero.jpg">
+                            <source src="media/video1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="video-wrapper">
+                        <video autoplay muted loop playsinline poster="media/hero.jpg">
+                            <source src="media/video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit Us Section -->
+        <section id="visit" class="visit section-spacing">
+            <div class="container">
+                <div class="split-layout reverse">
+                    <div class="split-image visit-image-wrapper">
+                        <img src="media/storefront.jpg" alt="Daak Coffee House Storefront" loading="lazy">
+                    </div>
+                    <div class="split-content visit-content-wrapper">
+                        <h2>Visit Us</h2>
+
+                        <div class="map-container mb-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15228.625892558509!2d78.39682390890696!3d17.425126848133504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb96cbc56ebf7b%3A0xe7fce2c2fcbfc443!2sJubilee%20Hills%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1709400000000!5m2!1sen!2sin"
+                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <div class="info-block">
+                            <h3>Address</h3>
+                            <p>Road No. 63, Jubilee Hills,<br>Hyderabad, Telangana, India</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Opening Hours</h3>
+                            <p>8:00 AM – 1:00 AM (Daily)</p>
+                        </div>
+                        <a href="https://www.google.com/maps/place/Daak+Coffee+House/" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-primary mt-4">Get Directions</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer fade-in">
+        <!-- Content will be added here in the next task -->
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
